@@ -6,6 +6,12 @@ for(var i=0;i<10;i++) for(var j=0;j<10;j++){
       ele.attr('data-col', j);
   count++;
 }
+$('.info').on('click', function() {
+    $('.para').toggleClass('show');
+});
+$('.tryBtn').on('click', function() {
+    $('.para').toggleClass('show');
+});
 //------------shallow copy 2d array---------
 function coppy(arr2d){
   let newArray = arr2d.map(function(arr) {
