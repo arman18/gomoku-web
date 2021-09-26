@@ -64,7 +64,6 @@
     display: flex;
     flex-wrap: nowrap;
     bottom: -47px;
-    max-width: %;
     width: 100%;
     align-items: center;
     justify-content: flex-start;
