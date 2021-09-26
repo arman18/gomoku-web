@@ -65,7 +65,7 @@
     flex-wrap: nowrap;
     bottom: -47px;
     max-width: %;
-    width: 400px;
+    width: 100%;
     align-items: center;
     justify-content: flex-start;
 }
